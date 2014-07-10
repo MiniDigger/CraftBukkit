@@ -88,7 +88,7 @@ public class DedicatedServer extends MinecraftServer implements IMinecraftServer
 		this.n = new EULA(new File("eula.txt"));
 		if (!this.n.a()) {
 			// i.info("You need to agree to the EULA in order to run the server. Go to eula.txt for more info.");
-			i.info("Normaly I would force you too accept the EULA, but since the new EULA is shit, just go ahead.");
+			i.info("Normaly I would force you to accept the EULA, but since the new EULA is shit, just go ahead.");
 			// this.n.b();
 			// return false;
 		}
